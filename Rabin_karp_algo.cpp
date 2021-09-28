@@ -3,6 +3,7 @@ using namespace std;
 typedef long long int ll;
 #define nline "\n"
 
+// checking if pat is equal to substring of text starting from index i
 bool checkequal(int i, string text, string pat){
 	int x=0;
 	for(;x<pat.size();x++,i++){
@@ -65,11 +66,7 @@ vector<int> string_matching_using_Rabin_Karp(string text,string pat){
 	return ans;
 
 }
-void solve(){
-	int n;	
-	cin>>n;
 
-}
 int main(){
 	// for fast input output
 	ios_base::sync_with_stdio(false);  cin.tie(NULL);
