@@ -62,7 +62,6 @@ vector<int> string_matching_using_Rabin_Karp(string text,string pat){
 
 		}
 	}
-	//cout<<h<<nline;
 	return ans;
 
 }
