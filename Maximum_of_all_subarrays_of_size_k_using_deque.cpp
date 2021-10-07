@@ -31,14 +31,11 @@ int main(){
     ios_base::sync_with_stdio(false);  cin.tie(NULL);
 
     int n,k;
-    cin>>n>>k;
+    n=6;
+    k=3;
 
    // vector arr 
-    vector<int>arr;
-
-    // inserting values into vector
-    for(int i=0;i<n;i++)
-        cin>>arr[i];
+    vector<int>arr={8,7,3,5,0,9};
 
     //function for finding maximum of all subarrays of size k using deque..
     vector<int>ans= max_subarrays_using_deque(arr,n,k);
